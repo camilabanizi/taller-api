@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rick and Morty</title>
+    <link rel="website icon" type="png" href="rick.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <img src="logo-r&m.png" />
+      </div>
+    </header>
+
+    <div class="rm-wiki">
+      <h1>Rick and Morty Wiki</h1>
+      <p>Pista: puedes elegir hasta 826 personajes.</p>
+      <input
+        type="text"
+        id="characterNumber"
+        placeholder="Ingresa el ID del personaje"
+      />
+      <br />
+      <button id="searchButton">Buscar</button>
+      <div class="personaje-info" id="personajeInfo"></div>
+    </div>
+
+    <script defer src="script.js"></script>
+  </body>
+</html>
